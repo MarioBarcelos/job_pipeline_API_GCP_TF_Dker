@@ -4,14 +4,14 @@ on:
   push:
     branches:
     - main
-    patns:
+    paths:
       - '**.tf'
   pull_request:
 
 jobs:
   terraform:
     name: 'Terraform'
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
 
     defaults:
       run:
