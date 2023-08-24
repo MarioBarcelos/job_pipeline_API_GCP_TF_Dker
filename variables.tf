@@ -3,7 +3,7 @@ variable "project_id" {
   description = "O Id do projecto no GCP"
 }
 
-variable " region" {
+variable "region" {
     type = string
     default = "Google Cloud location of resources"
 }
